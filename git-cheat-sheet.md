@@ -81,6 +81,9 @@ git tag -n
 
 
 
+  git config --global alias.logp 'log --pretty=format:"%C(yellow)%h %Cblue%>(12)%ad %Cgreen%<(8)%aN%Cred%d %Creset%s" --date=relative --graph'
+#>  git logp --all
+
 
 
 
