@@ -7,6 +7,8 @@
 
 # Intro
 
+#>  # GIT_SSH_COMMAND="ssh -v" git push
+
 This document was tested on **Ubuntu 18.04** with **git version 2.17.1**.
 
 # Installation
