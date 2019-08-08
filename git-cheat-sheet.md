@@ -44,6 +44,8 @@ git tag -n
 
 
 
+  COMMIT_HASH=HEAD bash -c 'git tag -a tag_release.$(git show -s --format=%cd --date=format:"%Y.%m.%d" ${COMMIT_HASH}).$(git show -s --format=%ct ${COMMIT_HASH}).$(git rev-parse --short ${COMMIT_HASH}) -m "release tag." ${COMMIT_HASH}' #@@ tag release
+
 
 
 
